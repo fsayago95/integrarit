@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integrar IT</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <ul>
+            <li>
+                <a href="#">Inicio</a>
+            </li>
+            <li>
+                <a href="#quienessomos">Quienes somos</a>
+            </li>
+            <li>
+                <a href="#footer">Contacto</a>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <div class="background-video">
+            <video autoplay loop muted>
+                <source src="./images/teamWorking.mp4" type="video/mp4">
+            </video>
+        </div>
+    </main>
+    <a name="quienessomos"></a>
+    <div class="about-us">
+        <div class="container-text">
+        <h3 class="animate__animated animate__fadeInLeft"> 
+            Somos Integrar IT, una empresa dedicada a construir productos digitales.
+Nuestra expertiz abarca el Desarrollo Web, Calidad de producto y Marketing Digital. 
+Nuestra misión es acompañar a nuestro cliente por todo el proceso de creación brindando nuestro conocimiento y experiencia, centrándonos en el usuario final.
+        </h3>
+    </div>
+</div>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/peopleWorking.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/onlychairs.jpeg" class="d-block w-100" alt="...">
+            </div>
+            
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="get-in-touch">
+        <div class="container-text-get-in-touch">
+        <h1>¡Dejanos un mensaje!</h1>
+    </div>
+    </div>
+    <a name="footer"></a>
+    <footer >
+        <div class="contact-information">
+            <form>
+                <ul class="list-form">
+                    <li>
+                        <input type="text" placeholder="Nombre" name="Nombre">
+                    </li>
+                    <li>
+                        <input type="text" placeholder="Email" name="Email">
+                    </li>
+                    <li class="question">
+                        <input type="text" placeholder="Inserte su consulta aqui" name="Consulta">
+                    </li>
+                    <li>
+                        <input type="submit" value="Enviar" name="Enviar" class="btn-submit">
+                    </li>
+                </ul>
+            </form>
+        </div>
+        <div class="container-social-media">
+            <ul class="list-social-media">
+                <li>
+                    <img src="images/ig.png" alt="">
+                </li>
+                <li>
+                    <img src="images/fb.png" alt="">
+                </li>
+                <li>
+                    <img src="images/tw.png" alt="">
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
