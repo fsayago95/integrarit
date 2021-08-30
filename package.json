@@ -5,20 +5,20 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node-sass --include-path scss scss/styles.scss css/styles.css",
+    "build-css": "node-sass --include-path scss scss/style.scss css/styles.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
     
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fsayago95/integrarit.git"
+    "url": "git+https://github.com/fsayago95/noName.git"
   },
   "author": "Franco Sayago",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fsayago95/integrarit/issues"
+    "url": "https://github.com/fsayago95/noName/issues"
   },
-  "homepage": "https://github.com/fsayago95/integrarit#readme",
+  "homepage": "https://github.com/fsayago95/noName#readme",
   "devDependencies": {
     "node-sass": "^6.0.1",
     "nodemon": "^2.0.12"
