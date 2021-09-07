@@ -1,0 +1,22 @@
+.navbar {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.collapse.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.navbar.navbar-expand-lg.navbar-light.bg-muted {
+  position: absolute;
+  z-index: 1;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+}
+li {
+  margin: 10px;
+  list-style-type: none;
+  font-family: "Source Sans Pro", sans-serif;
+}
