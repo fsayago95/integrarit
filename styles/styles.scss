@@ -12,13 +12,15 @@
 }
 .background-video{
   position: relative;
+  height: 110%;
 }
-
-li {
-  text-decoration: none;
-  font-family: "Bebas Neue", cursive;
-  font-size: 30px;
-} 
+.aboutus-image{
+  height: 70%;
+  width: 80%;
+}
+.navbar{
+  font-family: 'Source Sans Pro', sans-serif
+}
 
 a:hover{
   transition: all 0.5s;
@@ -35,6 +37,8 @@ ul {
 li {
   margin: 10px;
   list-style-type: none;
+  font-family: 'Source Sans Pro', sans-serif;
+ 
 }
 .main-image-about-us {
   display: flex;
@@ -53,15 +57,28 @@ footer {
 }
 .about-us {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  height: 600px;
 }
 .about-us .container-text h3 {
-  font-family: "Bebas Neue", cursive;
-  font-size: 40px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 30px;
+  margin: 40px;
 }
-.container-text {
+.container-text {  
   width: 50%;
-  height: 50%;
+  height: 100%;
+  background-color: #dba35e;
+  display: flex;
+  align-items: center;
+}
+.container-image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  width: 50%;
+  height: 94%;
 }
 .get-in-touch {
   display: flex;
@@ -69,7 +86,6 @@ footer {
   background-color: #216b8f;
 }
 .get-in-touch h1 {
-  font-family: "Bebas Neue", cursive;
   color: black;
 }
 .container-text-get-in-touch {
@@ -111,4 +127,21 @@ input {
 }
 .animate__animated.animate__fadeInLeft {
   animation-duration: 8s;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
 }
