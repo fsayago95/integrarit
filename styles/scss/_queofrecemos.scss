@@ -1,0 +1,16 @@
+.text-welcome{
+    display: flex;
+    justify-content: center;
+}
+.container-flex-content-between{
+    display: flex;
+    justify-content: space-between;
+    .card.bg-dark.text-white {
+        height: 300px;
+        width: 300px;
+    }
+}
+h3, p {
+    font-family: 'Alegreya Sans SC', sans-serif;
+
+}

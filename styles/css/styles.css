@@ -1,31 +1,42 @@
-.navbar {
-  font-family: "Source Sans Pro", sans-serif;
-}
-
-.collapse.navbar-collapse {
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-
 .navbar.navbar-expand-lg.navbar-light.bg-muted {
   position: absolute;
   z-index: 1;
 }
 
-ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-
 li {
   margin: 10px;
   list-style-type: none;
-  font-family: "Source Sans Pro", sans-serif;
+}
+
+.nav-link {
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.text-welcome {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container-flex-content-between {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container-flex-content-between .card.bg-dark.text-white {
+  height: 300px;
+  width: 300px;
+}
+
+h3, p {
+  font-family: 'Alegreya Sans SC', sans-serif;
 }
 
 .animate__animated.animate__backInDown {
