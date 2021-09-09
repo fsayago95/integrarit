@@ -5,9 +5,11 @@
 .container-flex-content-between{
     display: flex;
     justify-content: space-between;
+    margin: 50px;
     .card.bg-dark.text-white {
         height: 300px;
         width: 300px;
+        
     }
 }
 h3, p {
