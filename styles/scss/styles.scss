@@ -1,39 +1,43 @@
 @import "_header.scss";
 @import "_queofrecemos.scss";
+@import "_footer.scss";
 
-.animate__animated.animate__backInDown{
-  animation-duration: 9s;
-
+.animate__animated.animate__backInDown {
+  animation-duration: 3s;
 }
-.background-video{
+.background-video {
   position: relative;
   height: 110%;
+  display: flex;
+  justify-content: center;
 }
-.aboutus-image{
+.background-video::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.aboutus-image {
   height: 70%;
   width: 80%;
 }
 
-a:hover{
+a:hover {
   transition: all 0.5s;
   transform: scale(1.15);
 }
 video {
   width: 100%;
-  height: 100%;
 }
 
 .main-image-about-us {
   display: flex;
   justify-content: center;
 }
-footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #216b8f;
-  height: 440px;
-}
+
 .services {
   display: flex;
   justify-content: space-between;
@@ -44,20 +48,12 @@ footer {
   height: 600px;
 }
 .about-us .container-text h1 {
-  font-family: 'Alegreya Sans SC', sans-serif;
+  font-family: "Alegreya Sans SC", sans-serif;
   font-size: 30px;
   margin: 40px;
 }
-.container-text {  
-  margin-top: 54px;
-  margin-left: 55px;
-  width: 50%;
-  height: 70%;
-  background-color: #dba35e;
-  display: flex;
-  align-items: center;
-}
-.container-image{
+
+.container-image {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -66,44 +62,7 @@ footer {
   width: 50%;
   height: 99%;
 }
-.get-in-touch {
-  display: flex;
-  justify-content: center;
-  background-color: #216b8f;
-}
-.get-in-touch h1 {
-  color: black;
-}
-.container-text-get-in-touch {
-  margin: 30px;
-  background-size: 60px;
-}
-.contact-information {
-  background-color: #dba35e;
-  width: 400px;
-  height: 355px;
-  margin-left: 105px;
-}
-input {
-  border: none;
-  border-top-left-radius: 8px;
-  border-bottom-right-radius: 8px;
-}
-.btn-submit {
-  background-color: #216b8f;
-  color: white;
-  text-decoration: none;
-  width: 100px;
-}
-.list-form {
-  display: flex;
-  flex-direction: column;
-  margin-top: 30px;
-}
-.social-media {
-  width: 50px;
-  height: 50px;
-}
+
 .carousel-inner {
   padding: 50px;
 }
@@ -113,21 +72,4 @@ input {
 }
 .animate__animated.animate__fadeInLeft {
   animation-duration: 8s;
-}
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-facebook {
-  background: #3B5998;
-  color: white;
 }
