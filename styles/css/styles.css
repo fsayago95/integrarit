@@ -68,6 +68,7 @@ footer {
           justify-content: space-between;
   background-color: #216b8f;
   height: 440px;
+  padding: 20px;
 }
 
 .container-text {
@@ -108,7 +109,6 @@ footer {
   background-color: #dba35e;
   width: 400px;
   height: 355px;
-  margin-left: 105px;
 }
 
 input {
@@ -163,6 +163,11 @@ img {
 iframe {
   width: 300px;
   height: 300px;
+}
+
+p {
+  font-size: 30px;
+  color: black;
 }
 
 .animate__animated.animate__backInDown {
