@@ -96,7 +96,7 @@ footer {
 
 .get-in-touch h1 {
   color: black;
-  font-family: 'Alegreya Sans SC', sans-serif;
+  font-family: "Alegreya Sans SC", sans-serif;
 }
 
 .container-text-get-in-touch {
@@ -144,22 +144,25 @@ input {
   height: 50px;
 }
 
-.fa {
-  padding: 20px;
-  font-size: 30px;
+img {
   width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
 }
 
-.fa:hover {
-  opacity: 0.7;
+.text-social-media {
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-size: 30px;
 }
 
-.fa-facebook {
-  background: #3B5998;
-  color: white;
+.container-social-media {
+  background-color: white;
+  padding: 15px;
+  border: 2px;
+  border-radius: 50px 20px;
+}
+
+iframe {
+  width: 300px;
+  height: 300px;
 }
 
 .animate__animated.animate__backInDown {
