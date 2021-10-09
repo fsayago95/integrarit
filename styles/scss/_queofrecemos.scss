@@ -1,28 +1,31 @@
-.text-welcome{
-    display: flex;
-    justify-content: center;
+.text-welcome {
+  display: flex;
+  justify-content: center;
 }
-.container-flex-content-between{
-    display: flex;
-    justify-content: space-between;
-    margin: 50px;
-    .card.bg-dark.text-white {
-        height: 300px;
-        width: 300px;
-        
-    }
-}
-h3, p {
-    font-family: 'Alegreya Sans SC', sans-serif;
+.container-flex-content-between {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+  .card.bg-dark.text-white {
+    height: 300px;
+    width: 300px;
+  }
 
+  .card-text {
+    font-size: 25px;
+  }
+}
+h1,
+p {
+  font-family: "Alegreya Sans SC", sans-serif;
 }
 
-@media (min-width: 300px) {
-    .container-flex-content-between {
+@media (max-width: 480px) {
+  .container-flex-content-between {
     display: flex;
-    flex-wrap: wrap; 
-        .card-queofrecemos {
-            margin: 15px;
-        }
+    flex-wrap: wrap;
+    .card-queofrecemos {
+      margin: 10px;
     }
+  }
 }

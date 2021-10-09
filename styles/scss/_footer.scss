@@ -86,3 +86,19 @@ footer {
     font-size: 30px;
     color: black;
   }
+
+
+  @media (max-width: 480px) {
+    footer{
+      display: flex;
+      flex-wrap: wrap;
+      background-color: #216b8f;
+      height: max-content;
+        .container-social-media{
+          margin: 10px;
+        }
+        .google-adress{
+          margin: 10px;
+        }
+    }
+}
