@@ -57,6 +57,19 @@ h3, p {
   font-family: 'Alegreya Sans SC', sans-serif;
 }
 
+@media (min-width: 300px) {
+  .container-flex-content-between {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .container-flex-content-between .card-queofrecemos {
+    margin: 15px;
+  }
+}
+
 footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -171,6 +184,36 @@ p {
   color: black;
 }
 
+.about-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 600px;
+}
+
+.about-us .container-text h1 {
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-size: 30px;
+  margin: 40px;
+}
+
+.main-image-about-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.aboutus-image {
+  height: 70%;
+  width: 80%;
+}
+
 .animate__animated.animate__backInDown {
   -webkit-animation-duration: 3s;
           animation-duration: 3s;
@@ -197,11 +240,6 @@ p {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-.aboutus-image {
-  height: 70%;
-  width: 80%;
-}
-
 a:hover {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
@@ -213,15 +251,6 @@ video {
   width: 100%;
 }
 
-.main-image-about-us {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
 .services {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -229,22 +258,6 @@ video {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-
-.about-us {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  height: 600px;
-}
-
-.about-us .container-text h1 {
-  font-family: "Alegreya Sans SC", sans-serif;
-  font-size: 30px;
-  margin: 40px;
 }
 
 .container-image {

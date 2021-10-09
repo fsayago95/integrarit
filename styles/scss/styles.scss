@@ -1,6 +1,7 @@
 @import "_header.scss";
 @import "_queofrecemos.scss";
 @import "_footer.scss";
+@import "_aboutus.scss";
 
 .animate__animated.animate__backInDown {
   animation-duration: 3s;
@@ -20,10 +21,7 @@
   right: 0;
   background-color: rgba(0, 0, 0, 0.4);
 }
-.aboutus-image {
-  height: 70%;
-  width: 80%;
-}
+
 
 a:hover {
   transition: all 0.5s;
@@ -33,25 +31,13 @@ video {
   width: 100%;
 }
 
-.main-image-about-us {
-  display: flex;
-  justify-content: center;
-}
+
 
 .services {
   display: flex;
   justify-content: space-between;
 }
-.about-us {
-  display: flex;
-  justify-content: space-between;
-  height: 600px;
-}
-.about-us .container-text h1 {
-  font-family: "Alegreya Sans SC", sans-serif;
-  font-size: 30px;
-  margin: 40px;
-}
+
 
 .container-image {
   display: flex;

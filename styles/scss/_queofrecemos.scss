@@ -16,3 +16,13 @@ h3, p {
     font-family: 'Alegreya Sans SC', sans-serif;
 
 }
+
+@media (min-width: 300px) {
+    .container-flex-content-between {
+    display: flex;
+    flex-wrap: wrap; 
+        .card-queofrecemos {
+            margin: 15px;
+        }
+    }
+}
