@@ -1,123 +1,131 @@
-$principal-font: 'Alegreya Sans SC', sans-serif;
+$principal-font: "Alegreya Sans SC", sans-serif;
 
 footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #216b8f;
-    height: 440px;
-    padding: 20px;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #216b8f;
+  height: 440px;
+  padding: 20px;
+}
 
-  .container-text {  
-    margin-top: 54px;
-    margin-left: 55px;
-    width: 50%;
-    height: 70%;
-    background-color: #dba35e;
-    display: flex;
-    align-items: center;
-  }
-  .get-in-touch {
-    display: flex;
-    justify-content: center;
-    background-color: #216b8f;
-  }
-  .get-in-touch h1 {
-    color: black;
-    font-family: $principal-font;  
+.container-text {
+  margin-top: 54px;
+  margin-left: 55px;
+  width: 50%;
+  height: 70%;
+  background-color: #dba35e;
+  display: flex;
+  align-items: center;
+}
+.get-in-touch {
+  display: flex;
+  justify-content: center;
+  background-color: #216b8f;
+}
+.get-in-touch h1 {
+  color: black;
+  font-family: $principal-font;
+}
 
+.container-text-get-in-touch {
+  margin: 30px;
+  background-size: 60px;
+}
+.contact-information {
+  background-color: #dba35e;
+  width: 400px;
+  height: 355px;
+}
+input {
+  border: none;
+  border-top-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.btn-submit {
+  background-color: #216b8f;
+  color: white;
+  text-decoration: none;
+  width: 100px;
+}
+.list-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  li {
+    padding: 10px;
   }
+}
+.social-media {
+  width: 50px;
+  height: 50px;
+}
 
-  .container-text-get-in-touch {
-    margin: 30px;
-    background-size: 60px;
-  }
-  .contact-information {
-    background-color: #dba35e;
-    width: 400px;
-    height: 355px;
-  }
-  input {
-    border: none;
-    border-top-left-radius: 8px;
-    border-bottom-right-radius: 8px;
-  }
-  .btn-submit {
+img {
+  width: 50px;
+}
+
+.text-social-media {
+  font-family: $principal-font;
+  font-size: 30px;
+}
+
+.container-social-media {
+  background-color: white;
+  padding: 15px;
+  border: 2px;
+  border-radius: 50px 20px;
+}
+
+iframe {
+  width: 300px;
+  height: 300px;
+}
+p {
+  font-size: 30px;
+  color: black;
+}
+
+@media (min-width: 468px) and (max-width: 768px) {
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     background-color: #216b8f;
-    color: white;
-    text-decoration: none;
-    width: 100px;
+    height: max-content;
+    width: min-content;
+
+    .container-social-media {
+      margin: 10px;
+    }
+    .google-adress {
+      margin: 10px;
+    }
   }
-  .list-form {
+}
+
+@media (min-width: 372px) and (max-width: 467px) {
+  footer {
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
-        li {
-            padding: 10px;
-        }
+    height: max-content;
   }
-  .social-media {
-    width: 50px;
-    height: 50px;
-  }
+}
 
-  img {
-    width: 50px;
+@media (max-width: 768px) {
+  footer {
+    width: 924px;
   }
-
-  .text-social-media{
-    font-family: $principal-font;
-    font-size:30px;
+  .get-in-touch {
+    width: 924px;
   }
-
-  .container-social-media{
-    background-color: white;
-    padding: 15px;
-    border: 2px;
-    border-radius: 50px 20px;
+  .contact-information {
+    margin: 10px;
   }
-
-  iframe{
-    width: 300px;
-    height: 300px;
+  .container-social-media {
+    margin: 10px;
   }
-  p{
-    font-size: 30px;
-    color: black;
+  .google-adress {
+    margin: 10px;
   }
-
-
-  @media (max-width: 468px) {
-    footer{
-      display: flex;
-      flex-wrap: wrap;
-      background-color: #216b8f;
-      height: max-content;
-      width: min-content;
-        .container-social-media{
-          margin: 10px;
-        }
-        .google-adress{
-          margin: 10px;
-        }
-    }
-  }
-
-    @media (max-width: 768px) { 
-      footer {
-        width: 924px;
-      }
-      .get-in-touch {
-        width: 924px;
-      }
-      .contact-information{
-        margin: 10px;
-      }
-      .container-social-media{
-        margin: 10px;
-      }
-      .google-adress{
-        margin: 10px;
-      }
-    }
+}

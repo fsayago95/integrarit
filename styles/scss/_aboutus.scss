@@ -14,8 +14,8 @@
 }
 
 .aboutus-image {
-  height: 70%;
-  width: 80%;
+  height: 50%;
+  width: 50%;
 }
 .container-image {
   display: flex;
@@ -53,12 +53,4 @@
   }
 }
 
-@media (min-width: 768px) {
-  .aboutus-image {
-    height: 55%;
-    width: 117%;
-  }
-  .container-image{
-    margin-right: -75px;
-  }
-}
+

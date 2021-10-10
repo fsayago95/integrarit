@@ -191,13 +191,17 @@ p {
   color: black;
 }
 
-@media (max-width: 468px) {
+@media (min-width: 468px) and (max-width: 768px) {
   footer {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     background-color: #216b8f;
     height: -webkit-max-content;
     height: -moz-max-content;
@@ -211,6 +215,21 @@ p {
   }
   footer .google-adress {
     margin: 10px;
+  }
+}
+
+@media (min-width: 372px) and (max-width: 467px) {
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
   }
 }
 
@@ -258,8 +277,8 @@ p {
 }
 
 .aboutus-image {
-  height: 70%;
-  width: 80%;
+  height: 50%;
+  width: 50%;
 }
 
 .container-image {
@@ -309,16 +328,6 @@ p {
   }
 }
 
-@media (min-width: 768px) {
-  .aboutus-image {
-    height: 55%;
-    width: 117%;
-  }
-  .container-image {
-    margin-right: -75px;
-  }
-}
-
 .background-video {
   position: relative;
   height: 110%;
@@ -331,43 +340,25 @@ p {
   z-index: -1;
 }
 
-.background-video::before {
-  position: absolute;
-  content: "";
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: rgba(0, 0, 0, 0.4);
-  z-index: 0;
-}
-
-a:hover {
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-  -webkit-transform: scale(1.15);
-          transform: scale(1.15);
-}
-
 video {
   width: 100%;
 }
 
-@media (min-width: 468px) {
-  video {
+@media (min-width: 468px) and (max-width: 768px) {
+  .background-video::before {
     width: 100%;
   }
-  .background-video::before {
+  video {
     width: 100%;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .background-video::before {
-    width: 120%;
+    width: 140%;
   }
   video {
-    width: 141%;
+    width: 140%;
   }
 }
 
