@@ -1,59 +1,14 @@
 @import "_header.scss";
-@import "_queofrecemos.scss";
+@import "_whatweoffer.scss";
 @import "_footer.scss";
 @import "_aboutus.scss";
-
-.animate__animated.animate__backInDown {
-  animation-duration: 3s;
-}
-.background-video {
-  position: relative;
-  height: 110%;
-  display: flex;
-  justify-content: center;
-  z-index: -1;
-}
-.background-video::before {
-  position: absolute;
-  content: "";
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: rgba(0, 0, 0, 0.4);
-  z-index: -1;
-}
-
-
-a:hover {
-  transition: all 0.5s;
-  transform: scale(1.15);
-}
-video {
-  width: 100%;
-}
+@import "_home.scss";
+@import "_carousel.scss";
 
 
 
-.services {
-  display: flex;
-  justify-content: space-between;
-}
 
 
-.container-image {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: -33px;
-  margin-left: 50px;
-  width: 50%;
-  height: 99%;
-}
-
-.carousel-inner {
-  padding: 50px;
-}
 .question > input {
   height: 100px;
   width: 250px;
@@ -61,3 +16,6 @@ video {
 .animate__animated.animate__fadeInLeft {
   animation-duration: 8s;
 }
+
+
+

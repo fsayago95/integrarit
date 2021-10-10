@@ -1,52 +1,64 @@
 .about-us {
+  display: flex;
+  justify-content: space-between;
+  height: 600px;
+}
+.about-us .container-text h1 {
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-size: 30px;
+  margin: 40px;
+}
+.main-image-about-us {
+  display: flex;
+  justify-content: center;
+}
+
+.aboutus-image {
+  height: 70%;
+  width: 80%;
+}
+.container-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -33px;
+  margin-left: 50px;
+  width: 50%;
+  height: 99%;
+}
+
+@media (max-width: 468px) {
+  .about-us {
     display: flex;
-    justify-content: space-between;
-    height: 600px;
+    flex-wrap: wrap;
+    height: max-content;
+    margin-top: 30px;
   }
   .about-us .container-text h1 {
-    font-family: "Alegreya Sans SC", sans-serif;
-    font-size: 30px;
-    margin: 40px;
+    font-size: 5vw;
   }
-  .main-image-about-us {
-    display: flex;
-    justify-content: center;
+  .container-image {
+    margin-top: 15px;
+    width: 85%;
+    height: 85%;
   }
-
   .aboutus-image {
+    margin-left: -1px;
+    margin-bottom: 15px;
     height: 70%;
-    width: 80%;
+    width: 70%;
   }
-  
-  @media (max-width: 480px) {
-    .about-us{
-        display: flex;
-        flex-wrap: wrap;
-        height: max-content;
-        margin-top: 30px;
-    }
-    .about-us .container-text h1{
-        font-size: 5vw;
-    }
-    .container-image{
-        margin-top: 15px;
-        width: 85%;
-        height: 85%;
-    }
-    .aboutus-image{
-        margin: auto;
-        margin-top: 100px;
-        margin-left: 80px;
-        height: 50%;
-        width: 50%;
-    }
-    .container-text{
-        margin: auto;
-    }
+  .container-text {
+    margin: auto;
+  }
+}
 
-    .aboutus-image{
-        width: 150%;
-        margin-bottom: 30px;
-    }
-    
+@media (min-width: 768px) {
+  .aboutus-image {
+    height: 55%;
+    width: 117%;
+  }
+  .container-image{
+    margin-right: -75px;
+  }
 }

@@ -20,12 +20,24 @@ p {
   font-family: "Alegreya Sans SC", sans-serif;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 468px) {
   .container-flex-content-between {
     display: flex;
     flex-wrap: wrap;
+    margin-left: 87px;
     .card-queofrecemos {
       margin: 10px;
     }
   }
 }
+
+  @media (max-width: 768px) {
+    .container-flex-content-between {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .card-queofrecemos {
+      margin: 5px;
+    }
+  }
+
