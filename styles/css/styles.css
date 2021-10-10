@@ -202,6 +202,9 @@ p {
     height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
   }
   footer .container-social-media {
     margin: 10px;
