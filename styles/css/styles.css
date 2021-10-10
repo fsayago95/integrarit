@@ -17,18 +17,6 @@ ul {
   font-size: large;
 }
 
-.logo-fixed {
-  position: fixed;
-  z-index: 2;
-}
-
-.contacto-fixed {
-  position: fixed;
-  z-index: 2;
-  right: 1%;
-  top: 90%;
-}
-
 .text-welcome {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -289,6 +277,7 @@ p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  z-index: -1;
 }
 
 .background-video::before {
@@ -299,6 +288,7 @@ p {
   left: 0;
   right: 0;
   background-color: rgba(0, 0, 0, 0.4);
+  z-index: -1;
 }
 
 a:hover {
