@@ -191,24 +191,19 @@ p {
   color: black;
 }
 
-@media (min-width: 468px) and (max-width: 768px) {
+@media (min-width: 468px) and (max-width: 769px) {
   footer {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    background-color: #216b8f;
     height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
-    width: -webkit-min-content;
-    width: -moz-min-content;
-    width: min-content;
+    width: 121%;
   }
   footer .container-social-media {
     margin: 10px;
@@ -216,9 +211,12 @@ p {
   footer .google-adress {
     margin: 10px;
   }
+  .get-in-touch {
+    width: 121%;
+  }
 }
 
-@media (min-width: 372px) and (max-width: 467px) {
+@media (max-width: 467px) {
   footer {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -230,18 +228,7 @@ p {
     height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
-  }
-}
-
-@media (max-width: 768px) {
-  footer {
-    width: 924px;
-  }
-  .get-in-touch {
-    width: 924px;
-  }
-  .contact-information {
-    margin: 10px;
+    width: 119%;
   }
   .container-social-media {
     margin: 10px;
@@ -328,6 +315,13 @@ p {
   }
 }
 
+@media (min-width: 467px) and (max-width: 769) {
+  .aboutus-image {
+    height: 54%;
+    width: 109%;
+  }
+}
+
 .background-video {
   position: relative;
   height: 110%;
@@ -359,6 +353,12 @@ video {
   }
   video {
     width: 140%;
+  }
+}
+
+@media (max-width: 467px) {
+  video {
+    width: 137%;
   }
 }
 

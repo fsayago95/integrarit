@@ -26,5 +26,10 @@
     video {
         width: 140%;
     }
-    
+  }
+
+  @media (max-width: 467px) {
+      video{
+          width: 137%;
+      }
   }

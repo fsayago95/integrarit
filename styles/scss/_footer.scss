@@ -86,15 +86,12 @@ p {
   color: black;
 }
 
-@media (min-width: 468px) and (max-width: 768px) {
+@media (min-width: 468px) and (max-width: 769px) {
   footer {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
-    background-color: #216b8f;
     height: max-content;
-    width: min-content;
-
+    width: 121%;
     .container-social-media {
       margin: 10px;
     }
@@ -102,25 +99,17 @@ p {
       margin: 10px;
     }
   }
+  .get-in-touch {
+    width: 121%;
+  }
 }
 
-@media (min-width: 372px) and (max-width: 467px) {
+@media (max-width: 467px) {
   footer {
     display: flex;
     flex-direction: column;
     height: max-content;
-  }
-}
-
-@media (max-width: 768px) {
-  footer {
-    width: 924px;
-  }
-  .get-in-touch {
-    width: 924px;
-  }
-  .contact-information {
-    margin: 10px;
+    width: 119%;
   }
   .container-social-media {
     margin: 10px;
@@ -128,4 +117,5 @@ p {
   .google-adress {
     margin: 10px;
   }
+
 }
