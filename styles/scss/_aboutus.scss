@@ -27,6 +27,12 @@
   height: 99%;
 }
 
+.text-about-us{
+display: flex;
+justify-content: center;
+margin-top: 50px;
+}
+
 @media (max-width: 468px) {
   .about-us {
     display: flex;
